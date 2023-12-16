@@ -3,7 +3,7 @@
 ###########################################################
 # if you want to force HTTPS, specify the domain without the http at the start
 # set domain: "your_github_user_name.github.io"
-domain: "dawunjung.github.com"
+domain: ""
 
 # your web site url
 # for GitHub Pages, url: "https://your_github_user_name.github.io"
@@ -120,5 +120,3 @@ sass:
 # Exclude these files or folders from production site
 ###########################################################
 exclude: ["Gemfile*", "vendor", ".github", ".vscode", "README*", "LICENSE", "docs"]
-
-remote_theme : MrGreensWorkshop/MrGreen-JekyllTheme
