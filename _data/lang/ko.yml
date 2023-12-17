@@ -147,9 +147,9 @@ archives:
 
 # for about layout
 about:
-  title: CurriculumVitae
-  button_name: Curriculum Vitae
-  email_title: Curriculum Vitae
+  title: CV
+  button_name: CV
+  email_title: dawun@lacy.co.kr
 
 # for links layout
 links:
