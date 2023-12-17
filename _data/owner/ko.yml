@@ -2,13 +2,13 @@
 # Owner's Personal Information
 ###########################################################
 # This is your brand name
-brand: "사이트 이름"
+brand: "Lacy Blog"
 
 # text below the brand name
 brand_sub_text: "$site_sample"
 
 # used for seo meta post author (if it's not defined in post)
-name: "저자 이름"
+name: "lacy"
 
 # home page top header texts
 home:
@@ -23,7 +23,7 @@ about:
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.
-copyright_start_year: "2022"
+copyright_start_year: "2023"
 
 # make sure creative_commons.enable is true in _data/conf/main.yml file
 creative_commons:
@@ -48,12 +48,12 @@ meta_common_description: "귀하의 메타 설명."
 # the order of the items will be shown as here.
 # comment to remove any contact item
 contacts:
-  #- github: ""
-  #- email: ""
-  #- linkedin: ""
+  - github: "DAWUNJUNG"
+  - email: "dawun@lacy.co.kr"
+  - linkedin: "%EB%8B%A4%EC%9A%B4-%EC%A0%95-361284242"
   #- twitter: ""
   #- mastodon: ""
-  #- instagram: ""
+  - instagram: "dawun__1408"
   #- youtube: ""
   #- facebook: ""
 # to add more, check the _data/const/contact.yml file

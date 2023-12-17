@@ -45,12 +45,12 @@ image_viewer:
   load_error: 이미지를 로드할 수 없습니다.
 
 copyright:
-  additional_text: " 판권 소유."
+  additional_text: " Copy right."
 
 creative_commons:
-  some_rights_reserved: 일부 권리 보유.
+  some_rights_reserved: Some Right Reserved.
   # check _data/owner/[language].yml for license type.
-  by: 달리 명시되지 않는 한 이 웹 사이트의 콘텐츠는 Creative Commons Attribution 4.0 International 라이선스에 따라 라이선스가 부여됩니다.
+  by: 페이지에  명시되지 않는 한 이 웹 사이트의 콘텐츠는 Creative Commons Attribution 4.0 International 라이선스에 따라 라이선스가 부여됩니다.
   by-nd: 달리 명시되지 않는 한 이 웹 사이트의 콘텐츠는 Creative Commons Attribution-NoDerivatives 4.0 International 라이선스에 따라 라이선스가 부여됩니다.
   by-sa: 달리 명시되지 않는 한 이 웹 사이트의 콘텐츠는 Creative Commons Attribution-ShareAlike 4.0 International 라이선스에 따라 라이선스가 부여됩니다.
   by-nc: 달리 명시되지 않는 한 이 웹 사이트의 콘텐츠는 Creative Commons Attribution-NonCommercial 4.0 International 라이선스에 따라 라이선스가 부여됩니다.
@@ -89,7 +89,7 @@ post:
         privacy_link_text: 개인 정보 정책
         settings_link_text: 이 링크
         button:
-          load_once: 이번만 보여줘
+          load_once: 한번만 보기
           load_and_do_not_ask_again: 항상 표시
   table_of_contents:
     heading: 내용물
@@ -101,8 +101,8 @@ post:
     link_copied: 링크가 복사되었습니다!
     tooltip:
       # keys need to match with _data/share.yml
-      twitter: Twitter
-      facebook: Facebook
+#      twitter: Twitter
+#      facebook: Facebook
       telegram: Telegram
       linkedin: LinkedIn
       email: 이메일
@@ -114,42 +114,42 @@ post-list:
   button_name: 블로그
   upside_down_tabs:
     tab:
-      all: 모두
+      all: 전체
       categories: 카테고리
       tags: 태그
-      years: 연령
-      clear: 분명한
-      close: 닫다
+      years: 연도
+      clear: 전체 삭제
+      close: 닫기
       tooltip:
-        clear: 분명한
-        close: 닫다
+        clear: 전체 삭제
+        close: 닫기
     msg:
       property_list:
         # keys need to match with /query/post-query.json
-        tags: 꼬리표
-        category: 범주
-        year: 년도
+        tags: 태그
+        category: 카테고리
+        year: 연도
       # you can use these wildcards, {property} {value} {thumb}
       resultFoundTitleFormat: "{property} : {thumb}"
 
 # for home layout
 home:
-  title: 환영
-  button_name: 홈
-  new_posts_title: 새로운 기사
+  title: 안녕하세요. Lacy 블로그 입니다.
+  button_name: Home
+  new_posts_title: 따끈따끈한 주인장의 글
   new_posts_show_more_button: 더보기 ...
 
 # for archives layout
 archives:
-  title: 아카이브
-  button_name: 아카이브
-  page_header: 아카이브
+  title: History
+  button_name: History
+  page_header: History
 
 # for about layout
 about:
-  title: 에 대한
-  button_name: 에 대한
-  email_title: 이메일
+  title: CurriculumVitae
+  button_name: Curriculum Vitae
+  email_title: Curriculum Vitae
 
 # for links layout
 links:
@@ -162,8 +162,8 @@ links:
 projects:
   title: 프로젝트
   button_name: 프로젝트
-  read_more_text: 더 읽어보기
-  read_less_text: 적게 읽기
+  read_more_text: 커져라!
+  read_less_text: 작아져라!
 
 # for privacy-policy layout
 privacy-policy:
@@ -171,13 +171,13 @@ privacy-policy:
 
 # constants to be replaced for
 constants:
-  greetings: 안녕하세요
-  welcome: 환영
-  sample: 견본
+  greetings: 안녕하세요. Lacy 블로그 입니다.
+  welcome: 안녕하세요. Lacy 블로그 입니다.
+  sample: 샘플 파일
 
 # for contact form
 contact_form:
-  button_name: 문의 양식
+  button_name: 문의하기
   formLoadingText: 문의 양식 로드...
 
 # for cookie consent
