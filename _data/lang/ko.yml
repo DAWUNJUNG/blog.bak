@@ -33,12 +33,12 @@ not_found:
 no_translation_tooltip: 번역 없음
 
 navigation:
-  contact_header: 연락하다
+  contact_header: Contact
 
 color_scheme_switch_tooltip: 색 구성표
 
 search:
-  placeholder: 검색
+  placeholder: 검색어를 입력해주세요.
   noResultText: 검색 결과가 없습니다.
 
 image_viewer:
@@ -110,8 +110,8 @@ post:
 
 # for post-list layout
 post-list:
-  title: 블로그
-  button_name: 블로그
+  title: Blog
+  button_name: Blog
   upside_down_tabs:
     tab:
       all: 전체
@@ -153,15 +153,15 @@ about:
 
 # for links layout
 links:
-  title: 링크
-  button_name: 링크
+  title: Links
+  button_name: Links
   link_text: 웹사이트
   info_text: 정보
 
 # for projects layout
 projects:
-  title: 프로젝트
-  button_name: 프로젝트
+  title: Project
+  button_name: Project
   read_more_text: 커져라!
   read_less_text: 작아져라!
 
@@ -173,7 +173,7 @@ privacy-policy:
 constants:
   greetings: 안녕하세요. Lacy 블로그 입니다.
   welcome: 안녕하세요. Lacy 블로그 입니다.
-  sample: 샘플 파일
+  sample: Lacy Blog Sample
 
 # for contact form
 contact_form:
