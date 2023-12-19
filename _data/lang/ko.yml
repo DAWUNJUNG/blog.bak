@@ -92,10 +92,10 @@ post:
           load_once: 한번만 보기
           load_and_do_not_ask_again: 항상 표시
   table_of_contents:
-    heading: 내용물
+    heading: 목차
     tooltip:
       move: 드래그하여 이동
-      close: 닫다
+      close: 닫기
   share:
     heading: 공유
     link_copied: 링크가 복사되었습니다!
@@ -118,10 +118,10 @@ post-list:
       categories: 카테고리
       tags: 태그
       years: 연도
-      clear: 전체 삭제
+      clear: 전체 닫기
       close: 닫기
       tooltip:
-        clear: 전체 삭제
+        clear: 전체 닫기
         close: 닫기
     msg:
       property_list:
@@ -139,8 +139,8 @@ home:
   new_posts_title: 따끈따끈한 주인장의 글
   new_posts_show_more_button: 더보기 ...
 
-# for archives layout
-archives:
+# for history layout
+history:
   title: History
   button_name: History
   page_header: History
@@ -162,8 +162,8 @@ links:
 projects:
   title: Project
   button_name: Project
-  read_more_text: 커져라!
-  read_less_text: 작아져라!
+  read_more_text: 열기
+  read_less_text: 닫기
 
 # for privacy-policy layout
 privacy-policy:

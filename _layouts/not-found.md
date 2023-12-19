@@ -39,7 +39,7 @@ layout: default
   {%- if lng_notfound.size > 1 -%}
     <script>
     let notfound_lng = {{ lng_notfound | jsonify }};
-    if (window.location.pathname !== "/404.html") {
+    if (window.location.pathname !== "/404") {
       function getlang () {
         let lang = window.location.pathname.replace("{{ site.baseurl }}", "").split('/');
         /* Removes first element from array. */
@@ -54,7 +54,7 @@ layout: default
           document.querySelector('#notfound>h1').textContent = lang[1].header;
           document.querySelector('#notfound>p.line1').textContent= lang[1].line1;
           document.querySelector('#notfound>p.line2').textContent = lang[1].line2;
-          window.location.href = '{{ site.baseurl }}/' + lang[0] + "/404.html";
+          window.location.href = '{{ site.baseurl }}/' + lang[0] + "/404";
         }
       }
     }
